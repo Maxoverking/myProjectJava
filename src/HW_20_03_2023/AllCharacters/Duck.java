@@ -5,7 +5,7 @@ import HW_20_03_2023.CanRun;
 import HW_20_03_2023.CanSwim;
 
 public class Duck implements CanSwim, CanRun, CanFly {
-    String DUCK = "Утка";
+    final String DUCK = "Утка";
 
     @Override
     public String run() {

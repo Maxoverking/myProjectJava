@@ -5,7 +5,7 @@ import HW_20_03_2023.CanRun;
 import HW_20_03_2023.CanSwim;
 
 public class Superman implements CanFly, CanRun, CanSwim {
-    String SUPERMAN = "Супермен";
+    final String SUPERMAN = "Супермен";
 
     @Override
     public String swim() {

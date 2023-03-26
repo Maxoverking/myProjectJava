@@ -14,8 +14,8 @@ public class RectangleTest {
         Rectangle r3 = new Rectangle(1, 5);
 
         List<Rectangle> rectangles = Arrays.asList(r1, r2, r3);
-        rectangles.sort(new RectangleAreaComparator());
 
+        rectangles.sort(new RectangleAreaComparator());
         assertEquals(r3, rectangles.get(0));
         assertEquals(r1, rectangles.get(1));
         assertEquals(r2, rectangles.get(2));
