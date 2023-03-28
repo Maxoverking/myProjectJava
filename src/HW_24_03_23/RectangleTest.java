@@ -21,3 +21,9 @@ public class RectangleTest {
         assertEquals(r2, rectangles.get(2));
     }
 }
+
+    //   Scanner scanner = new Scanner(System.in);
+    //  int num;
+    //  System.out.println("Введите пин-код:");
+    //   Scanner scanner = new Scanner(System.in);
+    //  client.pinTrue();
